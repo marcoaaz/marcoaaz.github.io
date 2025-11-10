@@ -1,7 +1,28 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "SGGMP 2025: Image analysis workshop"
+excerpt: "Software will be required at https://www.sggmp25.com/ to run the image analysis workshop. This project contains the software executables of the graphical user interfaces required to complete the exercises during the workshop<br/><img src='/images/Workflow_v2-01.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+## Image analysis workshop
+
+Speakers: 
+ - Prof. Balz Kamber: introduction
+ - Dr. Marco Acevedo Zamora: 
+
+All the material for the seminar is in a freely distributed Google Drive [folder]. Note that the guidelines for the seminar are in [booklet_11-Nov-25.pdf]()
+
+The links to download the image analysis software executables are:
+ - [Cube converter]()
+ - [Chemistry simplifier]()
+ - [Phase interpreter]()
+
+All of them are in version 1 (beta) and this is a first time release.
+
+The required data and external software are:
+ - Part 1:
+ - Part 2:
+ - QuPath v0.6: 
+ - ImageJ:
+ - IrfanView:
+
