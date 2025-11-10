@@ -37,15 +37,18 @@ All software are in version 1 (beta) and this is a first time release. If you wi
 
 The overall workflow below shows the type of microscopy data and how it will flow between the software packages and give you an idea of your progress:
 
-Data:
+Microscopy techniques and steps:
 
-<img width=90% height=90% alt="Image" src="/images/Workflow_v2_no outlines-01.png">
+<img width=90% height=90% alt="Image" src="https://github.com/user-attachments/assets/65c02db2-851b-46d9-8522-c9db9b4c71b3" />
 
-Software packages (green= chemistry simplifier; blue= cube converter; orange= phase interpreter):
+Application of software packages (green= chemistry simplifier; blue= cube converter; orange= phase interpreter):
 
-<img width=90% height=90% alt="Image" src="/images/Workflow_v2-01.png">
+<img width=90% height=90% alt="Image" src="https://github.com/user-attachments/assets/693ba0e0-5fff-40e2-b494-1b63240e805a" />
 
-Remember that all data management and software interaction are done manually. It's 2025! :blush:. If you liked the seminar, the best support is to cite our scientific work and collaborate with us. 
+Remember that all data management and software interactions are done manually. 
+
+
+If you liked the seminar, the best support is to cite our scientific work and collaborate with us. 
 
 Cheers,  
 Marco
