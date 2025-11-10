@@ -26,7 +26,7 @@ author:
   avatar           : "favicon-512x512.png"
   name             : "Marco Acevedo Z."
   pronouns         : # example: "she/her"  
-  bio              : "I began my academic journey at UNI, UNIGE, TCD, and QUT studying Earth Sciences. In the background, I was learning to use microscope and programming. This website presents the results of the last 2 years of my postdoc at QUT in Brisbane where I focused on image analysis"
+  bio              : "I began my academic journey at UNI (Peru), UNIGE (Switzerland), TCD (Ireland), and QUT (Australia) studying Earth Sciences. In the background, I was learning to use microscopes and programming computers to semi-automate tasks. This website presents the results of the last 2 years of my postdoc at QUT in Brisbane where I focused on image analysis and learned to write graphical user interfaces."
   location         : "Brisbane"
   employer         : "Queensland University of Technology (QUT)"
   uri              : # URL
@@ -48,13 +48,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/marcoaaz"
+  github           : "marcoaaz"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -63,7 +63,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/marcoaz/"
+  linkedin         : "marcoaz/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
