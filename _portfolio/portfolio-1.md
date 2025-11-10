@@ -7,10 +7,10 @@ collection: portfolio
 ## Image analysis workshop
 
 Speakers: 
- - Prof. Balz Kamber: introduction
- - Dr. Marco Acevedo Zamora: exercises
-
-All the workshop material is digital and freely distributable [folder](). For those who experience difficulties downloading all the data, some colleagues can copy you the files with SSD external drives. The description and links to the specific datasets are given below.
+ - Dr. Marco Acevedo Zamora: second introduction and exercises
+ - Prof. Balz Kamber: first introduction
+ 
+Welcome. All the workshop material is digital and freely distributable [folder](). For those who experience difficulties downloading all the data, some colleagues can copy you the files with SSD external drives. The description and links to the specific datasets are given below.
 
 The required material, data and external software are:
  - Guidelines for the seminar: [booklet_11-Nov-25.pdf](). 
@@ -42,19 +42,22 @@ All software are in version 1 (beta) and this is a first time release. If you wi
 
 ### Workflow
 
-The overall workflow below shows the type of microscopy data and how it will flow between the software packages and give you an idea of your progress:
+The overall workflow below shows the type of microscopy data and how it will flow between the software packages and give you an idea of your progress. Remember that all data management and software interactions are done manually.
 
-Microscopy techniques and steps:
-
-<img width=90% height=90% alt="Image" src='/images/Workflow_v2_no outlines-01.png'>
-
-Application of software packages (green= chemistry simplifier; blue= cube converter; orange= phase interpreter):
+Microscopy techniques, workflow steps, and software packages involvement (green= chemistry simplifier; blue= cube converter; orange= phase interpreter):
 
 <img width=90% height=90% alt="Image" src='/images/Workflow_v2-01.png'>
 
-Remember that all data management and software interactions are done manually. 
+![Alt text](../images/Workflow_v2-01.png "Workflow")
 
-If you liked the seminar, the best support is to cite our scientific work and to collaborate with us for making discoveries and building new tools. Thank you.
+![Alt text](/images/Workflow_v2-01.png "Workflow")
+
+![Alt text](/images/Workflow_v2-01.png "Workflow"){:height="360px" width="360px"}
+
+I hope you can start making discoveries and building new tools. If you liked the seminar and want to see more from our research group, the best support is to cite our scientific work and/or to collaborate in grant applications. 
+
+Thank you.  
+
 
 Cheers,  
 Marco
