@@ -39,11 +39,11 @@ The overall workflow below shows the type of microscopy data and how it will flo
 
 Data:
 
-<img width=90% height=90% alt="Image" src='/images/Workflow_v2_no outlines-01.png'>
+<img width=90% height=90% alt="Image" src="/images/Workflow_v2_no outlines-01.png">
 
 Software packages (green= chemistry simplifier; blue= cube converter; orange= phase interpreter):
 
-<img width=90% height=90% alt="Image" src='/images/Workflow_v2-01.png'>
+<img width=90% height=90% alt="Image" src="/images/Workflow_v2-01.png">
 
 Remember that all data management and software interaction are done manually. It's 2025! :blush:. If you liked the seminar, the best support is to cite our scientific work and collaborate with us. 
 
