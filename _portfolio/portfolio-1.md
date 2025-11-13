@@ -18,43 +18,44 @@ Welcome. This webpage explains the workshop and provides the data required to ru
 
 The petrographic polarising microscope is a foundational tool in geoscience research to answer first-order questions such as rock micro-structure, fabric, and mineral assemblage at multiple observation scales. The arrival of fast and reliable optical slide scanners for biomedical imaging has motivated their re-implementation as polarising microscopes for imaging rock thin sections. Investigators are now demanding sharing their slide data around the world via virtual microscopes, scaling up image analysis to hundreds of thin sections, and integrating optical imagery with other modalities, especially chemical maps.  
 
-This requires image analysis software and algorithms that can cope with image pyramids for registration, segmentation, classification, and image representation of pixels and objects that simplify observation of the underlying data. For large-scale correlative microscopy, the average user will need centralised orchestration of data management, image processing, and image analysis for trialling and interacting with open-source code and data that might not be locally available (the cloud).  
+The literature shows image analysis of rock thin sections studying small fields of view and targeting mineral grains with one microscopy is a challenging task. Large-scale (and correlative) microscopy requires a step evolution of image analysis software and algorithms that can cope with image pyramids for registration, segmentation, classification, and image representation of pixels and objects that simplify observation of the underlying data. The average user will need centralised orchestration of data management, image processing, and image analysis for trialling and interacting with open-source code and data that might not be locally available (the cloud).  
 
-This presentation will give examples of image analysis pipelines that work on a powerful PC for navigation, pixel classification, object identification and dimensionality reduction applied to a variety of rock types (igneous, metamorphic, and sedimentary). It will also demonstrate how image analysis tools can help to transition from subjective user-driven classification to more objective interpretation of object classes and their mutual relationships. 
+This workshop will introduce offline standalone software to process very large images: (1) Cube converter, (2) Chemistry simplifier, and (3) phase interpreter. They can be combined into image analysis pipelines for semi-automated mineralogy. The pipelines can be customised by the user and work on their PC to allow advanced navigation, pixel classification (QuPath software), object identification and dimensionality reduction applied to a variety of rock types (igneous, metamorphic, and sedimentary). Using an example of a websterite thin section, the workshop will also demonstrate how image analysis tools can help to transition from subjective user-driven classification to more objective interpretation of object classes and their mutual relationships. 
 
 
 ### Material: 
 
-All the workshop material is digital and freely distributable [folder](). For those who experience difficulties downloading all the data, some colleagues can copy you the files with SSD external drives. The description and links to the specific datasets are given below.
+All the workshop material is digital and freely distributable (see [all data folder]()). For those who experience difficulties downloading all the data, you can copy you the files directly from SSD external drives. A more granular description (and links) to the componet datasets is given below:
 
-The required data and external software are:
- - Booklet to follow the workshop: [booklet_11-Nov-25.pdf](). 
- - QuPath v0.6 [installer]: Bioinformatics software for whole-slide image analysis ([Bankhead et al., 2017](https://pubmed.ncbi.nlm.nih.gov/29203879/))       
- - [Part 1](): Navigating in QuPath
- - Part 2:
-    - [Part 2](), Windows users: Ray tracing and dimensionality reduction
-    - [Part 2](), Mac users: Pixel-based image segmentation
- - Extra learning material:
-    - [Part 3](): Videos on image registration and Phase interpreter software
-    - [Part 4](): Courses and resources to learn image analysis
+ - Booklet to follow the workshop: [booklet_11-Nov-25.pdf](https://drive.google.com/file/d/1xA68dYMQDb1VaDo7Cq8QewV1nsKaYx2e/view?usp=sharing).      
+ - Part 1 dataset: Navigating in QuPath ([registered_pyramids](https://drive.google.com/file/d/17HUjqnrstj973W0yZ2to8ISFQDCgzAhG/view?usp=sharing))
+ - Part 2 dataset: Petrographic image analysis ([optical](https://drive.google.com/file/d/1alYwxB4FVPrAXSYkgTcJ7XCslXdlUN-S/view?usp=sharing) and [sem](https://drive.google.com/file/d/1dq-D8QRIPvjWUDy57zgbDAL1bwYE_daw/view?usp=sharing))
+    - 2A for Windows users: Ray tracing and dimensionality reduction
+    - 2B for Mac users: Pixel-based image segmentation ([registered_pyramids](https://drive.google.com/file/d/17HUjqnrstj973W0yZ2to8ISFQDCgzAhG/view?usp=sharing))
+ - Extra learning material [booklet_11-Nov-24_extra materials.docx](https://docs.google.com/document/d/16Oe7utO8dU0GDCi39jahrS_OdX93hFCM/edit?usp=sharing&ouid=104458834416513766328&rtpof=true&sd=true) containing:
+    - Courses and resources to learn image analysis
+    - Video links on image analysis routines (e.g., image registration)
+ - Video on VS200 slide scanner acquisition     
+ - The required installers of the internal and external software are provided in the [files](https://drive.google.com/file/d/1fIeNmyiiVdQnmyWdt_jkFgN5HZlntpu8/view?usp=sharing) folder. 
  
- - External software will be required. The installers can also be downloaded from:
+For the internal (new) software, the **executables** can also be found in the [files](https://drive.google.com/file/d/1fIeNmyiiVdQnmyWdt_jkFgN5HZlntpu8/view?usp=sharing) folder (run in Windows 11):
+ - Cube converter: processing optical images
+ - Chemistry simplifier: processing chemical images
+ - Phase interpreter: producing mineral phase maps
+
+All packages are in version 1 (beta). For developers, the GitHub source code can be found at:
+ - [Cube converter repo](https://github.com/marcoaaz/cube_converter): in Python language
+ - [Chemistry simplifier repo](https://github.com/marcoaaz/chemistry_simplifier): in Python 
+ - [Phase interpreter repo](https://github.com/marcoaaz/phase_interpreter): in MatLab
+
+For the external software*, it can also be downloaded from:
   - QuPath [website](https://qupath.github.io/)
   - ImageJ-[Fiji](https://imagej.net/software/fiji/downloads): for image alignment/registration
    - After opening for the first time, update the plugins going to ‘Top menu > Help > Update.. > Apply Changes’. Restart Imagej after that.
    - Normally, you should have ‘ImageJ > Plugins > BigDataViewer > BigWarp’ available
   - [IrfanView](https://www.irfanview.com/): optional for opening images
 
-The internal software **executables** can be found at (only run in Windows 11):
- - [Cube converter](): processing optical images
- - [Chemistry simplifier](): processing chemical images
- - [Phase interpreter](): producing mineral phase maps
-
-All software are in version 1 (beta) and this is a first time release. If you wish to have the source code, fork and contribute to improve the software, the repositories are in GitHub:
- - [Cube converter repo](https://github.com/marcoaaz/cube_converter): in Python language
- - [Chemistry simplifier repo](https://github.com/marcoaaz/chemistry_simplifier): in Python 
- - [Phase interpreter repo](https://github.com/marcoaaz/phase_interpreter): in MatLab
-
+*If the installers (for Windows 11) are not compatible with your PC.
 
 ### Workflow
 
@@ -65,7 +66,7 @@ Microscopy techniques, workflow steps, and software packages involvement (green=
 ![Workflow placeholder](/images/Workflow_v2-01.png "Workflow")
 
 
-If wanting to see more from our research group, the best support is citing our scientific work and propose interinstitutional/international collaboration. Get ready to make discoveries and build/imagine new tools. 
+Get ready to make discoveries and build/imagine new tools. Citing our work (references in GitHub) will make us more sustainable. 
 
 
 Cheers,  
