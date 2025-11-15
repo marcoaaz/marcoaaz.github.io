@@ -29,49 +29,60 @@ Before attending the workshop, attendants will need to:
 - Read the workshop booklet (25 pg.):   
    - Part 1: Windows users
    - Part 2: Mac users
-   - Part 3: Extra material (Windows)
+   - Part 3: Extra material (Windows only)
    - Benchmark: Those who completed Part 2
- - Download the course **material** in your personal computer (PC)
- - Install the corresponding software  
+ - Download the course **material** in your personal computer (PC), preferrably into a SSD dive
+ - Install the image analysis software  
  - Ensure to have 50 GB of free disk space to follow the workshop (after downloads and installations)
- - Bring the PC to the workshop with charger and mouse device.
+ - Bring the PC to the workshop with a charger and mouse device.
  
 If you prefer to be given the files in person (copying takes ~5 minutes is using USB 3.0), it is recommended to bring an external SSD and contact us earlier during the seminar.
 
 
 ### Workshop material 
 
-All the workshop material is digital and freely distributable and can be downloaded as a single file ([link]()) or more granularly (see descriptions below). For convenience, large downloads have been zipped and need to be unzipped:
+All the workshop material is digital and freely distributable and can be downloaded from a single file ([link]()). The complete set of files to download is listed at the bottom of this page. 
 
-- Workshop booklet: [link](https://sggmp25_workshop.fromsmash.com/booklet)      
-- Installers of internal and external software: [link](https://sggmp25_workshop.fromsmash.com/installer-files) 
-- Part 1 dataset, Navigating in QuPath: [link]()
-- Part 2 dataset: Petrographic image analysis 
-   - 2A (Windows users), Ray tracing and dimensionality reduction ([optical](https://sggmp25_workshop.fromsmash.com/optical-data) and [sem](https://sggmp25_workshop.fromsmash.com/sem_data))
-   - 2B (Mac users), Pixel-based image segmentation: [link]()
-- Additional material:
-   - [Extra learning material](https://sggmp25_workshop.fromsmash.com/extra-materials) containing:
-      - Video links on image analysis routines (e.g., image registration)
-      - Courses and resources to learn image analysis   
-   - Video on VS200 slide scanner acquisition: [link](https://sggmp25_workshop.fromsmash.com/data-acquisition)
-   - Overall workflow picture: [link](https://sggmp25_workshop.fromsmash.com/workflow-image)
-  
-The internal software in version 1 (beta), the **executables** can be found in the [link](https://sggmp25_workshop.fromsmash.com/installer-files) (run in Windows 11):
-- Cube converter: processing optical images ([link](https://sggmp25_workshop.fromsmash.com/cube-converter))
-- Chemistry simplifier: processing chemical images ([link](https://sggmp25_workshop.fromsmash.com/chemistry-simplifier))
-- Phase interpreter: producing mineral phase maps ([link](https://sggmp25_workshop.fromsmash.com/phase-interpreter))
+A more granular description and individual downloads are given below (if the large download is too much):
 
-If the shared installers (for Windows 11) are not compatible with your PC, the external software can also be downloaded from:
+-Files to run the workshop
+   - Workshop booklet: [link](https://sggmp25_workshop.fromsmash.com/booklet2)      
+   - Internal and external ***image analysis software*** executables and installers: [link](https://sggmp25_workshop.fromsmash.com/installer-files2) 
+   - Part 1 dataset, Navigating in QuPath: [link](https://sggmp25_workshop.fromsmash.com/registered-pyramids-upload)
+   - Part 2 dataset: Petrographic image analysis 
+      - 2A (Windows users), Ray tracing and dimensionality reduction from:
+         -optical data: [link](https://sggmp25_workshop.fromsmash.com/optical-data2)
+         -scanning electron microscopy BSE/EDX: [link](https://sggmp25_workshop.fromsmash.com/sem-data2)
+      - 2B (Mac users), Pixel-based image segmentation: same as Part 1
+   - Part 3 dataset: No download available. It can be done with Part 2B outputs.
+
+- Additional material: [link](https://sggmp25_workshop.fromsmash.com/extra-materials2)   
+   - Video links on image analysis routines (e.g., image registration)
+   - Courses and resources to learn image analysis   
+   - Video on VS200 slide scanner acquisition
+   - Overall workflow picture
+
+For convenience, large downloads have been zipped and need to be unzipped. The download links will expire on 16th December, 2025
+
+
+#### Image analysis software
+
+The internal software **executables** (run in Windows 11):
+- Cube converter: processing optical images ([link](https://sggmp25_workshop.fromsmash.com/cube-converter2))
+- Chemistry simplifier: processing chemical images ([link](https://sggmp25_workshop.fromsmash.com/chemistry-simplifier2))
+- Phase interpreter: producing mineral phase maps ([link](https://sggmp25_workshop.fromsmash.com/phase-interpreter2))
+
+If the external software are not compatible with your PC, the compatible versions can be downloaded from:
 - Mandatory
    - **QuPath** [installer](https://qupath.github.io/)
       - If doing Part 2B, add the [BIOP catalog](https://github.com/BIOP/qupath-biop-catalog) extension. Follow the instruction at the bottom of the page.   
+
 - Optional
    - ImageJ-Fiji [installer](https://imagej.net/software/fiji/downloads): for image alignment/registration
       - First, update the plugins going to ‘Top menu > Help > Update.. > Apply Changes’. Restart Imagej after that.
       - Second, check that you have ‘ImageJ > Plugins > BigDataViewer > BigWarp’ available
    - [IrfanView](https://www.irfanview.com/): optional for opening images
 
-The complete set of files to download is listed at the bottom of this page.
 
 
 ### Workflow
@@ -91,12 +102,13 @@ With this software you can add new dimensions to your analysis since polarised o
 - Mineral optic-axis and/or slow-axis orientation ([Acevedo Zamora et al., 2024](https://onlinelibrary.wiley.com/doi/10.1111/jmi.13284)) 
 - Sample preparation quality and planing the location of new micro-analytical experiments, e.g., XPL colours depend on thickness
 
-Get ready to make the best of your data, new discoveries and build/imagine new tools. Citing our work makes us more sustainable (references in GitHub). 
+
+Get ready to make the best of your data, new discoveries and imagine new image analysis tools. Citing our work makes us more sustainable (references in GitHub). 
 
 
 ### Open-source code
 
-Developers are welcome to contribute. The GitHub source code is provided below:
+The programs are provided as version 1 (beta) for testing. Users and developers are welcome to contribute. The GitHub source code is provided below:
  - [Cube converter repo](https://github.com/marcoaaz/cube_converter): in Python language
  - [Chemistry simplifier repo](https://github.com/marcoaaz/chemistry_simplifier): in Python 
  - [Phase interpreter repo](https://github.com/marcoaaz/phase_interpreter): in MatLab
@@ -110,7 +122,7 @@ Marco
 
 ### Workshop material (all files)
 
-All the files you require are (in the recommended order):
+All the files required are (in the recommended order):
 
 ```
 
