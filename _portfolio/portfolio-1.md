@@ -22,6 +22,7 @@ The literature shows image analysis of rock thin sections studying small fields 
 
 This workshop will introduce offline standalone software to process very large images: (1) Cube converter, (2) Chemistry simplifier, and (3) phase interpreter. They can be combined into image analysis pipelines for semi-automated mineralogy. The pipelines can be customised by the user and work on their PC to allow advanced navigation, pixel classification (QuPath software), object identification and dimensionality reduction applied to a variety of rock types (igneous, metamorphic, and sedimentary). Using an example of a websterite thin section, the workshop will also demonstrate how image analysis tools can help to transition from subjective user-driven classification to more objective interpretation of object classes and their mutual relationships. 
 
+
 ### Requirements: 
 
 Before attending the workshop, attendants will need to: 
@@ -35,40 +36,42 @@ Before attending the workshop, attendants will need to:
  - Ensure to have 50 GB of free disk space to follow the workshop (after downloads and installations)
  - Bring the PC to the workshop with charger and mouse device.
  
-If you prefer to be given the files in person (copying takes ~5 minutes is using USB 3.0), it is recommended to bring an external SSD and contact us earlier during the seminar .
+If you prefer to be given the files in person (copying takes ~5 minutes is using USB 3.0), it is recommended to bring an external SSD and contact us earlier during the seminar.
+
 
 ### Workshop material 
 
-All the workshop material is digital and freely distributable ([all data folder]()). A more granular description (and links) to the componet datasets is given below:
+All the workshop material is digital and freely distributable and can be downloaded as a single file ([link]()) or more granularly (see descriptions below). For convenience, large downloads have been zipped and need to be unzipped:
 
-- Booklet to follow the workshop: [booklet_11-Nov-25.pdf](https://drive.google.com/file/d/1xA68dYMQDb1VaDo7Cq8QewV1nsKaYx2e/view?usp=sharing).      
-- The required installers of the internal and external software are provided in the [files](https://drive.google.com/file/d/1fIeNmyiiVdQnmyWdt_jkFgN5HZlntpu8/view?usp=sharing) folder. 
-- Part 1 dataset: Navigating in QuPath ([registered_pyramids](https://drive.google.com/file/d/17HUjqnrstj973W0yZ2to8ISFQDCgzAhG/view?usp=sharing))
+- Workshop booklet: [link](https://sggmp25_workshop.fromsmash.com/booklet)      
+- Installers of internal and external software: [link](https://sggmp25_workshop.fromsmash.com/installer-files) 
+- Part 1 dataset, Navigating in QuPath: [link]()
 - Part 2 dataset: Petrographic image analysis 
-   - 2A for Windows users: Ray tracing and dimensionality reduction ([optical](https://drive.google.com/file/d/1alYwxB4FVPrAXSYkgTcJ7XCslXdlUN-S/view?usp=sharing) and [sem](https://drive.google.com/file/d/1dq-D8QRIPvjWUDy57zgbDAL1bwYE_daw/view?usp=sharing))
-   - 2B for Mac users: Pixel-based image segmentation ([registered_pyramids](https://drive.google.com/file/d/17HUjqnrstj973W0yZ2to8ISFQDCgzAhG/view?usp=sharing))
-- Extra learning material:
-- [booklet_11-Nov-24_extra materials.docx](https://docs.google.com/document/d/16Oe7utO8dU0GDCi39jahrS_OdX93hFCM/edit?usp=sharing&ouid=104458834416513766328&rtpof=true&sd=true) containing:
-   - Video links on image analysis routines (e.g., image registration)
-   - Courses and resources to learn image analysis   
-- Video on VS200 slide scanner acquisition     
+   - 2A (Windows users), Ray tracing and dimensionality reduction ([optical](https://sggmp25_workshop.fromsmash.com/optical-data) and [sem](https://sggmp25_workshop.fromsmash.com/sem_data))
+   - 2B (Mac users), Pixel-based image segmentation: [link]()
+- Additional material:
+   - [Extra learning material](https://sggmp25_workshop.fromsmash.com/extra-materials) containing:
+      - Video links on image analysis routines (e.g., image registration)
+      - Courses and resources to learn image analysis   
+   - Video on VS200 slide scanner acquisition: [link](https://sggmp25_workshop.fromsmash.com/data-acquisition)
+   - Overall workflow picture: [link](https://sggmp25_workshop.fromsmash.com/workflow-image)
   
-The internal software in version 1 (beta), the **executables** can also be found in the [files](https://drive.google.com/file/d/1fIeNmyiiVdQnmyWdt_jkFgN5HZlntpu8/view?usp=sharing) folder (run in Windows 11):
-- Cube converter: processing optical images
-- Chemistry simplifier: processing chemical images
-- Phase interpreter: producing mineral phase maps
+The internal software in version 1 (beta), the **executables** can be found in the [link](https://sggmp25_workshop.fromsmash.com/installer-files) (run in Windows 11):
+- Cube converter: processing optical images ([link](https://sggmp25_workshop.fromsmash.com/cube-converter))
+- Chemistry simplifier: processing chemical images ([link](https://sggmp25_workshop.fromsmash.com/chemistry-simplifier))
+- Phase interpreter: producing mineral phase maps ([link](https://sggmp25_workshop.fromsmash.com/phase-interpreter))
 
 If the shared installers (for Windows 11) are not compatible with your PC, the external software can also be downloaded from:
 - Mandatory
-   - **QuPath** [website](https://qupath.github.io/)
-
+   - **QuPath** [installer](https://qupath.github.io/)
+      - If doing Part 2B, add the [BIOP catalog](https://github.com/BIOP/qupath-biop-catalog) extension. Follow the instruction at the bottom of the page.   
 - Optional
-   - ImageJ-[Fiji](https://imagej.net/software/fiji/downloads): for image alignment/registration
+   - ImageJ-Fiji [installer](https://imagej.net/software/fiji/downloads): for image alignment/registration
       - First, update the plugins going to ‘Top menu > Help > Update.. > Apply Changes’. Restart Imagej after that.
       - Second, check that you have ‘ImageJ > Plugins > BigDataViewer > BigWarp’ available
    - [IrfanView](https://www.irfanview.com/): optional for opening images
 
-The complet set of files to download is listed at the bottom of the page.
+The complete set of files to download is listed at the bottom of this page.
 
 
 ### Workflow
@@ -104,9 +107,10 @@ Thank you for your attendance.
 Cheers,  
 Marco
 
+
 ### Workshop material (all files)
 
-All the files required are:
+All the files you require are (in the recommended order):
 
 ```
 
