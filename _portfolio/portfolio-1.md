@@ -6,15 +6,18 @@ collection: portfolio
 
 ## Image analysis workshop
 
-Welcome. This webpage explains the workshop and provides the data required to run it in your PC.
+Welcome. This webpage explains the workshop and provides the data required to run the exercises in your PC.
+
 
 ### Presenters: 
+
 
  - Dr. Marco A. Acevedo Zamora: second introduction and exercises
  - Prof. Balz S. Kamber: first introduction
 
 
 ### Introduction:
+
 
 The petrographic polarising microscope is a foundational tool in geoscience research to answer first-order questions such as rock micro-structure, fabric, and mineral assemblage at multiple observation scales. The arrival of fast and reliable optical slide scanners for biomedical imaging has motivated their re-implementation as polarising microscopes for imaging rock thin sections. Investigators are now demanding sharing their slide data around the world via virtual microscopes, scaling up image analysis to hundreds of thin sections, and integrating optical imagery with other modalities, especially chemical maps.  
 
@@ -25,13 +28,14 @@ This workshop will introduce offline standalone software to process very large i
 
 ### Requirements: 
 
+
 Before attending the workshop, attendants will need to: 
 - Read the workshop booklet (25 pg.):   
    - Part 1: Windows users
    - Part 2: Mac users
    - Part 3: Extra material (Windows only)
    - Benchmark: Those who completed Part 2
- - Download the course **material** in your personal computer (PC), preferrably into a SSD dive
+ - Download the [**material**](https://sggmp25_workshop.fromsmash.com/seminar-material2) in your personal computer (PC), preferrably into a SSD drive
  - Install the image analysis software  
  - Ensure to have 50 GB of free disk space to follow the workshop (after downloads and installations)
  - Bring the PC to the workshop with a charger and mouse device.
@@ -41,7 +45,8 @@ If you prefer to be given the files in person (copying takes ~5 minutes is using
 
 ### Workshop material 
 
-All the workshop material is digital and freely distributable and can be downloaded from a single file ([link]()). The complete set of files to download is listed at the bottom of this page. 
+
+All the workshop material is digital and freely distributable and can be downloaded from a single file ([link](https://sggmp25_workshop.fromsmash.com/seminar-material2)). The complete set of files to download is listed at the bottom of this page. 
 
 A more granular description and individual downloads are given below (if the large download is too much):
 
@@ -67,6 +72,7 @@ For convenience, large downloads have been zipped and need to be unzipped. The d
 
 #### Image analysis software
 
+
 The internal software **executables** (run in Windows 11):
 - Cube converter: processing optical images ([link](https://sggmp25_workshop.fromsmash.com/cube-converter2))
 - Chemistry simplifier: processing chemical images ([link](https://sggmp25_workshop.fromsmash.com/chemistry-simplifier2))
@@ -86,6 +92,7 @@ If the external software are not compatible with your PC, the compatible version
 
 
 ### Workflow
+
 
 The workflow below shows the type of microscopy data that can be involved in a given research project. Imaging data flows between the software packages when a user manually perform data management and customises the image analysis pipeline outputs.
 
@@ -108,6 +115,7 @@ Get ready to make the best of your data, new discoveries and imagine new image a
 
 ### Open-source code
 
+
 The programs are provided as version 1 (beta) for testing. Users and developers are welcome to contribute. The GitHub source code is provided below:
  - [Cube converter repo](https://github.com/marcoaaz/cube_converter): in Python language
  - [Chemistry simplifier repo](https://github.com/marcoaaz/chemistry_simplifier): in Python 
@@ -117,10 +125,11 @@ The programs are provided as version 1 (beta) for testing. Users and developers 
 Thank you for your attendance.
 
 Cheers,  
-Marco
+Marco Acevedo
 
 
 ### Workshop material (all files)
+
 
 All the files required are (in the recommended order):
 
