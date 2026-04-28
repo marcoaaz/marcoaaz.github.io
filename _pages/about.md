@@ -40,8 +40,8 @@ The latest version:
 Try it yourself with almost any dataset (and image format) as long as the input has the same image size. Keep sending your feedback to keep the project alive and.. do not forget to stop thinking about your data. Let your data speak for itself.
 
 Here are the download links:  
- - Windows OS executable: https://zenodo.org/records/19688702  
- - Code repository: https://github.com/marcoaaz/chemistry_simplifier/tree/main  
+ - Windows OS executable: [link](https://zenodo.org/records/19688702)
+ - Code repository: [link](https://github.com/marcoaaz/chemistry_simplifier/tree/main)
 
 <img src='/images/chemistry_simplifier.gif'>
 
