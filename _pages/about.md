@@ -18,7 +18,7 @@ Latest updates (28-Apr-2026)
 **Cube Converter** v1.2 works with optical microscopy data from rock thin sections imaged in slide scanners. The interface allows selecting VS200 polarising images in reflected and transmitted light and calculating mineral pleochroism and interference colours in all polariser orientations (available). The simplified image outputs are (maximum, minimum, stage rotation, mineral grains, and grain boundaries) provide a new level of understading in petrography and petrology of whole thin sections. Forward looking projects could make it compatible with other slide scanners and integrate petrographic microscopy and automated mineralogy. Future work involves polarised reflected light and cloud data management.
 
 The latest version:
- - Uses cross-polarised light to calculate light wave modulation and grain boundaries images (e.g., 40'000x60'000 px) from many scans (6 images/modality) in ~50 minutes.
+ - Uses cross-polarised light to calculate light wave modulation and grain boundaries images (e.g., 40'000 x 60'000 px) from many scans (6 images/modality) in ~50 minutes.
  - Is x2 faster and allows saving the outputs in another external drive (output folder) to reduce data friction (throttling). Preferably an SSD drive.
 
 Here are the download links:  
@@ -46,14 +46,10 @@ Here are the download links:
 <img src='/images/chemistry_simplifier.gif'>
 
 
-Re-uploading Workshop material (25-Feb-2026)
+Re-uploading Workshop material (29-Apr-26)
 ------
-We ran a workshop (see Portfolio tab) to teach how to use the standalone software tools and reach a wider audience. The latest update of the seminar material has been uploaded to a data sharing [**service**](https://sggmp25_workshop.fromsmash.com/seminar-material-updated) (expiring 20-Mar-2026).
 
-The latest versions of the software for Windows 11 can be downloaded from:
+We ran a workshop (see Portfolio tab) to teach how to use the standalone software tools and reach a wider audience. The latest update of the seminar material has been uploaded to a data sharing service: [**link**](https://sggmp25_workshop.fromsmash.com/upload3-marco) (expiring 29-May-2026).
 
- - [**Cube Converter v1.1**](https://zenodo.org/records/18706798)
- - [**Chemistry Simplifier v1.1**](https://zenodo.org/records/18706790)
- - [**Phase Interpreter v1.1**](https://zenodo.org/records/18707639)
 
 

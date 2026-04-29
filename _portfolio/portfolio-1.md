@@ -35,7 +35,7 @@ Before attending the workshop, attendants will need to:
    - Part 2: Mac users
    - Part 3: Extra material (Windows only)
    - Benchmark: Those who completed Part 2
- - Download the [**material**](https://sggmp25_workshop.fromsmash.com/seminar-material2) in your personal computer (PC), preferrably into a SSD drive
+ - Download the [**material**](https://sggmp25_workshop.fromsmash.com/upload3-marco) in your personal computer (PC), preferrably into a SSD drive
  - Install the image analysis software  
  - Ensure to have 50 GB of free disk space to follow the workshop (after downloads and installations)
  - Bring the PC to the workshop with a charger and mouse device.
@@ -46,9 +46,10 @@ If you prefer to be given the files in person (copying takes ~5 minutes is using
 ### Workshop material 
 
 
-All the workshop material is digital and freely distributable and can be downloaded from a single file ([link](https://sggmp25_workshop.fromsmash.com/seminar-material2)). The complete set of files to download is listed at the bottom of this page. 
+All the workshop material is digital and freely distributable and can be downloaded from a single file ([link](https://sggmp25_workshop.fromsmash.com/upload3-marco)). The complete set of files to download is listed at the bottom of this page. 
 
-A more granular description and individual downloads are given below (if the large download is too much):
+A more granular description and individual downloads are given below (if the large single download is too much for your internet conection):
+*Note: most links below are expired (use the one above).
 
 -Files to run the workshop
    - Workshop booklet: [link](https://sggmp25_workshop.fromsmash.com/booklet2)      
